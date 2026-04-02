@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dnaprosolutions.com/sitemap.xml
