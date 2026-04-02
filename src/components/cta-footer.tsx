@@ -44,11 +44,11 @@ export default function CtaFooter() {
                 (713) 377-9200
               </a>
               <a
-                href="mailto:info@protechservices.com"
+                href="mailto:info@protechhome.net"
                 className="flex items-center gap-2 text-white/60 hover:text-amber transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
-                info@protechservices.com
+                info@protechhome.net
               </a>
             </div>
           </div>
