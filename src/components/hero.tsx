@@ -6,17 +6,8 @@ export function Hero() {
     <section className="flex min-h-[600px] w-full flex-col lg:flex-row">
       {/* Left — Navy side */}
       <div className="flex w-full flex-col justify-center bg-navy px-8 py-16 lg:w-[55%] lg:px-16 lg:py-20">
-        {/* Logo (white) */}
-        <div className="mb-8">
-          <Image
-            src="/images/logo.png"
-            alt="ProTech Home & Business Services"
-            height={56}
-            width={224}
-            priority
-            className="h-14 w-auto object-contain brightness-0 invert"
-          />
-        </div>
+        {/* Logo (text) */}
+        <p className="text-white font-bold text-2xl tracking-wide mb-8">PROTECH</p>
 
         {/* Headline */}
         <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -57,7 +48,7 @@ export function Hero() {
       {/* Right — Photo side (desktop only) */}
       <div className="relative hidden w-[45%] lg:block">
         <Image
-          src="/images/gallery/generators-1.jpg"
+          src="/images/gallery/concrete-1.jpg"
           alt="ProTech property maintenance services"
           fill
           priority

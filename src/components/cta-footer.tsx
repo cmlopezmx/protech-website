@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 
 export default function CtaFooter() {
@@ -28,14 +27,8 @@ export default function CtaFooter() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between gap-8 mb-8">
             {/* Left: Logo + tagline */}
-            <div className="flex flex-col gap-3">
-              <Image
-                src="/images/logo.png"
-                alt="ProTech Logo"
-                width={160}
-                height={32}
-                className="h-8 w-auto brightness-0 invert"
-              />
+            <div className="text-center md:text-left">
+              <p className="text-white font-bold text-lg mb-1">PROTECH</p>
               <p className="text-white/40 text-xs">
                 ProTech Home &amp; Business Services | DNA Pro Solutions LLC
               </p>
